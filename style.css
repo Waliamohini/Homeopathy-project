@@ -1,0 +1,225 @@
+*{
+    font-family : Arial;
+    border : border-box;
+    margin: 0;
+}
+/* discount panel */
+.discount{
+    height : 50px;
+    border : 0.4px solid rgb(166, 198, 166);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color : rgb(226, 242, 203);
+    font-size: 0.85rem;
+}
+/* navigation bar */
+.nav_bar{
+    height : 100px;
+    display : flex;
+    
+    align-items: center;
+
+}
+.discount:hover{
+    text-decoration: underline;
+    color: rgb(29, 115, 89);
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height : 5rem;
+    width: 17rem;
+    margin-top : 10px;
+    margin-left: 15px;
+}
+.logo:hover{
+    filter: brightness(50%);
+}
+/* Search_bar */
+
+.search_bar{
+    margin-top:10px;
+    display : flex;
+    font-size: 1rem;
+    border : 4px solid transparent;
+    height : 40px;
+    width : 700px;
+    background-color: rgb(86, 122, 86);
+    /* justify-content: space-evenly; */
+    align-items: center;
+    border-radius: 10px;
+    margin-left : 10%;
+    margin-right: 10%;
+}
+.search_bar:hover{
+    border : 6px solid rgb(86, 122, 86);
+}
+.icon1{
+    font-size: 1.5rem;
+    margin: 15px;
+    
+}
+input{
+    color: rgb(0, 0, 0);
+    height : 46px;
+    width : 646px;
+    border : none;
+    background-color:rgb(198, 225, 198)  ;
+    font-size: 1rem;
+    font-weight: 400;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.icon{
+    font-size: 1.7rem;
+    color : rgb(86, 122, 86);
+    margin-left: 20px;  
+}
+.icons{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 20px;
+}
+.icon:hover{
+    color:rgb(38, 50, 38)
+}
+/* Main */
+.panel1{
+    display : flex;
+    justify-content:right ;
+    align-items: center;
+    margin-top: 15px;
+    height:70px;
+    color: white;
+    background-color: rgb(71, 91, 84);
+}
+select{
+    background-color: transparent;
+    border:none;
+    color : white;
+    font-size: 1rem;
+    margin-left: 30px;
+    font-weight: 500;
+}
+select:hover{
+    text-decoration: underline;
+}
+.img{
+    height: 700px;
+    background-size: cover;
+    color: rgb(46, 44, 44);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-size: cover;
+    background-image: url(image.jpg);
+    margin-left : 10px;
+    margin-right : 10px;
+}
+.img span {
+    font-size: 2rem;
+    /* padding: 3px; */
+}
+.img h1{
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+
+
+.img span:hover{
+    background-color: rgba(3, 3, 3, 0.236);
+    color: rgba(251, 251, 251, 0.547);
+
+}
+
+.learn{
+    height : 35px;
+    font-size: 1.3rem;
+    width : 140px;
+    border : 4px double black;
+    background-color: white;
+    border-radius: 10px;
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 350px;
+}
+.learn:hover{
+    background-color: rgb(200, 201, 203);
+    
+}
+.meds{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-right : 7%;
+    margin-left : 7%;
+    margin-top:3% ;
+    height : 200px;
+
+}
+.box{
+    margin-top:10px;
+    margin-left : 5px;
+    width  : 15%;
+    height:200px;
+    background-size: cover;
+}
+.box:hover{
+    border:none;
+}
+.month{
+    margin-top : 3%;
+    margin-right:8%;
+}
+.month p{
+    margin-bottom: 2%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.month a{
+    margin-top: 20px;
+    font-size : 1.5rem;
+    font-weight: 700;
+    color:rgb(29, 115, 89);
+}
+.month a:hover{
+    color :rgb(75, 74, 65)
+}
+.box_img{
+    width : 90%;
+    height : 170px;
+    background-size: cover;
+    border: none;
+    margin-top: 20px;
+    /* border : 0.3px solid black; */
+    margin-bottom: 20px;
+    margin-left: 10px;
+    transition-duration: 1s;
+    margin: 2%;
+    margin-bottom:17px;
+
+}
+.box_img:hover{
+    transition: all 0.3s ease-in;
+    transform: scale(1.2);
+    border : none;
+}
+.box_margin{
+    text-align: center;
+
+}
+.box_margin p:hover{
+    text-decoration: underline;
+    color:rgb(1, 42, 83);
+}
+.box_margin p{
+    color :rgb(21, 81, 119);
+    font-weight: 700;
+}
