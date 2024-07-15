@@ -162,7 +162,7 @@ select:hover{
     margin-left : 7%;
     margin-top:3% ;
     height : 200px;
-    margin-bottom:200px;
+    
 
 }
 .box{
@@ -262,6 +262,7 @@ h3{
     font-size:2rem;
     font-weight:600;
     margin-left:100px;
+    margin-top:150px;
     
 }
 
