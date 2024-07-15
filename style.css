@@ -269,13 +269,14 @@ h3{
 
 
 footer{
+    
     background-color: rgb(71, 91, 84);
     color: white;
     height: cover;
     width:100vw;
 }
 
-footer img{
+/* footer img{
     display:block;
     padding-top:45px;
     margin-left:auto;
@@ -285,7 +286,7 @@ footer img{
     object-fit: contain;
     margin-bottom:5px;
 
-}
+} */
 
 footer p{
     font-size:25px;
