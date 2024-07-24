@@ -253,11 +253,20 @@ h4{
     
 }
 
-h4:hover{
-    text-decoration: underline;
-    color:rgb(1, 42, 83);
+a:hover{
+     background-color:rgb(192, 218, 244);
 }
 
+a:link{
+    color :rgb(21, 81, 119);
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color :rgb(21, 81, 119);
+
+}
 h3{
     font-size:2rem;
     font-weight:600;
