@@ -317,9 +317,32 @@ footer div{
     margin-top:30px;
 }
 
-.ops href{
+.ops a{
     margin-right : 1rem;
     color : white;
     text-decoration: none;
 }
     
+.medicine{
+    display : flex;
+    height : auto;
+    align-items: center;
+
+}
+.images{
+    /* height : 500px; */
+    width : cover;
+    background-size: cover;
+    /* width : 300px */
+
+}
+.image1 img{
+    border-radius: 0px;
+    height : 400px;
+    width : 300px;
+    margin : 3rem;
+    padding: 2%;
+}
+.information{
+    max-width : 600px;
+}
