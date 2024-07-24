@@ -316,3 +316,10 @@ footer div p{
 footer div{
     margin-top:30px;
 }
+
+.ops href{
+    margin-right : 1rem;
+    color : white;
+    text-decoration: none;
+}
+    
